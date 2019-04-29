@@ -705,13 +705,41 @@
     `(ivy-minibuffer-match-face-2 ((,class (:background ,nord7 :foreground ,nord0))))
     `(ivy-minibuffer-match-face-3 ((,class (:background ,nord8 :foreground ,nord0))))
     `(ivy-minibuffer-match-face-4 ((,class (:background ,nord9 :foreground ,nord0))))
-    `(ivy-remote ((,class (:foreground ,nord14))))
     `(ivy-posframe ((,class (:background ,nord1))))
     `(ivy-posframe-border ((,class (:background ,nord1))))
     `(ivy-remote ((,class (:foreground ,nord14))))
 
     ;; > perspective
     `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
+    ;; > Dired Plus
+    ;; `diredp-executable-tag', `diredp-get-file-or-dir-name',
+    ;; `diredp-ignored-file-name',`diredp-omit-file-name'
+    ;; `diredp-mode-line-flagged', `diredp-mode-line-marked'
+    ;; `diredp-tagged-autofile-name',
+
+    `(diredp-no-priv ((,class (:foreground ,nord4))))
+    `(diredp-dir-priv ((,class (:foreground ,nord4))))
+    `(diredp-link-priv ((,class (:foreground ,nord4))))
+    `(diredp-read-priv ((,class (:foreground ,nord14))))
+    `(diredp-write-priv ((,class (:foreground ,nord11))))
+    `(diredp-exec-priv ((,class (:foreground ,nord11))))
+    `(diredp-other-priv ((,class (:foreground ,nord15))))
+    `(diredp-rare-priv ((,class (:foreground ,nord15))))
+
+    `(diredp-dir-heading ((,class (:foreground ,nord9))))
+    `(diredp-flag-mark ((,class (:foreground ,nord-region-highlight-foreground))))
+    `(diredp-flag-mark-line ((,class (:background ,nord-region-highlight-background))))
+    `(diredp-deletion ((,class (:foreground ,nord11))))
+    `(diredp-deletion-file-name ((,class (:foreground ,nord11))))
+    `(diredp-ignored-file-name ((,class (:foreground ,nord-comment))))
+    `(diredp-file-suffix ((,class (:foreground ,nord4))))
+    `(diredp-compressed-file-suffix ((,class (:foreground ,nord4))))
+    `(diredp-dir-name ((,class (:foreground ,nord9))))
+    `(diredp-symlink ((,class (:foreground ,nord7))))
+    `(diredp-autofile-name ((,class (:foreground ,nord4))))
+    `(diredp-file-name ((,class (:foreground ,nord4))))
+    `(diredp-number ((,class (:foreground ,nord4))))
+    `(diredp-date-time ((,class (:foreground ,nord8))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
