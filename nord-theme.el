@@ -711,6 +711,7 @@
 
     ;; > perspective
     `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
+
     ;; > Dired Plus
     ;; `diredp-executable-tag', `diredp-get-file-or-dir-name',
     ;; `diredp-ignored-file-name',`diredp-omit-file-name'
