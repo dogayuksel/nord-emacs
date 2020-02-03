@@ -715,7 +715,6 @@
     ;; > Dired Plus
     ;; `diredp-executable-tag', `diredp-get-file-or-dir-name',
     ;; `diredp-ignored-file-name',`diredp-omit-file-name'
-    ;; `diredp-mode-line-flagged', `diredp-mode-line-marked'
     ;; `diredp-tagged-autofile-name',
 
     `(diredp-no-priv ((,class (:foreground ,nord4))))
@@ -740,7 +739,9 @@
     `(diredp-autofile-name ((,class (:foreground ,nord4))))
     `(diredp-file-name ((,class (:foreground ,nord4))))
     `(diredp-number ((,class (:foreground ,nord4))))
-    `(diredp-date-time ((,class (:foreground ,nord8))))))
+    `(diredp-date-time ((,class (:foreground ,nord8))))
+    `(diredp-mode-line-flagged ((,class (:foreground ,nord11))))
+    `(diredp-mode-line-marked ((,class (:foreground ,nord14))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
