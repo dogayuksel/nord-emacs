@@ -335,6 +335,9 @@
     `(window-divider ((,class (:background ,nord3))))
     `(window-divider-first-pixel ((,class (:background ,nord3))))
     `(window-divider-last-pixel ((,class (:background ,nord3))))
+    
+    `(compilation-mode-line-fail ((,class (:foreground ,nord11))))
+    `(compilation-mode-line-exit ((,class (:foreground ,nord14))))
 
     ;;;; +-----------------+
     ;;;; + Package Support +
