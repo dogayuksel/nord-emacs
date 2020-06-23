@@ -712,9 +712,6 @@
     `(ivy-posframe-border ((,class (:background ,nord1))))
     `(ivy-remote ((,class (:foreground ,nord14))))
 
-    ;; > perspective
-    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
-
     ;; > Dired Plus
     ;; `diredp-executable-tag', `diredp-get-file-or-dir-name',
     ;; `diredp-ignored-file-name',`diredp-omit-file-name'
@@ -744,7 +741,10 @@
     `(diredp-number ((,class (:foreground ,nord4))))
     `(diredp-date-time ((,class (:foreground ,nord8))))
     `(diredp-mode-line-flagged ((,class (:foreground ,nord11))))
-    `(diredp-mode-line-marked ((,class (:foreground ,nord14))))))
+    `(diredp-mode-line-marked ((,class (:foreground ,nord14))))
+    
+    ;; > perspective
+    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
