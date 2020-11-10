@@ -246,7 +246,7 @@
     `(mode-line ((,class (:foreground ,nord8 :background ,nord3))))
     `(mode-line-buffer-id ((,class (:weight bold))))
     `(mode-line-highlight ((,class (:inherit highlight))))
-    `(mode-line-inactive ((,class (:foreground ,nord4 :background ,nord-uniform-mode-lines-background))))
+    ;; `(mode-line-inactive ((,class (:foreground ,nord4 :background ,nord-uniform-mode-lines-background))))
     `(next-error ((,class (:inherit error))))
     `(nobreak-space ((,class (:foreground ,nord3))))
     `(outline-1 ((,class (:foreground ,nord8 :weight bold))))
@@ -742,6 +742,22 @@
     `(diredp-date-time ((,class (:foreground ,nord8))))
     `(diredp-mode-line-flagged ((,class (:foreground ,nord11))))
     `(diredp-mode-line-marked ((,class (:foreground ,nord14))))
+
+    ;; > telephone line
+    `(mode-line ((,class (:foreground ,nord8 :background ,nord3))))
+    `(mode-line-inactive ((,class (:foreground ,nord10 :background ,nord2))))
+    `(telephone-line-accent-active
+      ((,class (:foreground ,nord1, :background ,nord9))))
+    `(telephone-line-accent-inactive
+      ((,class (:foreground ,nord9, :background ,nord3))))
+    `(telephone-line-projectile ((,class (:foreground ,nord9))))
+    `(telephone-line-evil-normal ((,class (:foreground ,nord4 :background ,nord10))))
+    `(telephone-line-evil-insert ((,class (:foreground ,nord3 :background ,nord14))))
+    `(telephone-line-evil-visual ((,class (:foreground ,nord3 :background ,nord7))))
+    `(telephone-line-evil-replace ((,class (:foreground ,nord4 :background ,nord11))))
+    `(telephone-line-evil-emacs ((,class (:foreground ,nord3 :background ,nord15))))
+    `(telephone-line-evil-motion ((,class (:foreground ,nord3 :background ,nord13))))
+    `(telephone-line-evil-operator ((,class (:foreground ,nord3 :background ,nord12))))
     
     ;; > perspective
     `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
